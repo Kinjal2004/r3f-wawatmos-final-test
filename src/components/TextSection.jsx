@@ -1,7 +1,8 @@
 import { Text } from "@react-three/drei";
+import { Image } from "@react-three/drei";
 import { fadeOnBeforeCompileFlat } from "../utils/fadeMaterial";
 
-export const TextSection = ({ title, subtitle, ...props }) => {
+export const TextSection = ({ title, subtitle, imageUrl, ...props }) => {
   return (
     <group {...props}>
       {!!title && (
@@ -36,6 +37,15 @@ export const TextSection = ({ title, subtitle, ...props }) => {
           onBeforeCompile={fadeOnBeforeCompileFlat}
         />
       </Text>
+
+      {!!imageUrl && (
+        <Image
+          position={[4, -0.3, 0]} // adjust position as needed
+          url={imageUrl}
+          width={2}
+          height={2}
+        />
+      )}
     </group>
   );
 };

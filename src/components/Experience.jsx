@@ -56,13 +56,13 @@ Have a seat and enjoy the ride!`,
       {
         cameraRailDist: 1.5,
         position: new Vector3(
-          curvePoints[2].x + 2,
+          curvePoints[2].x+2,
           curvePoints[2].y,
           curvePoints[2].z
         ),
-        title: "Services",
-        subtitle: `Do you want a drink?
-We have a wide range of beverages!`,
+        title: "Hands-on webinar on Authentication",
+        subtitle: `A good website is an accessible website. Who wouldn't want to use websites that not only serve the purpose but also give you a secured and protected experience? Webwiz, in collaboration with Sawo Labs, presents a Hands-On Webinar on Authentication using Sawo Labs. To be conducted by Mr. Abhishek Chandrasenan who's a Full Stack Developer at Sawo Labs, it's going to be nothing but FUN!`,
+        imageUrl: "https://res.cloudinary.com/webwiznitr/image/upload/v1637769176/webwiz-portfolio/events%20page/webwiz_sawo_labs_ipsjo2.png"
       },
       {
         cameraRailDist: -1,
